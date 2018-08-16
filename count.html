@@ -1,0 +1,12 @@
+<div id="count"></div>
+
+<script src="jquery.js"></script>
+<script>
+var count = 9000000000;
+var i = 0;
+window.setInterval(function(){
+
+	if(i <= count)
+		document.getElementById("count").innerHTML = i++;
+},60000);
+</script>

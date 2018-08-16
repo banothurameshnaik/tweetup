@@ -1,0 +1,21 @@
+.footer
+{
+	
+	background-color:green;
+	background-repeat:repeat-x;
+	color:#ffffff;s
+	border-radius:10px 5px 15px 15px;
+	width:98%;
+}
+.footer a{
+color:#ffffff;
+font-weight:bold;
+font-size:20px;
+text-decoration:none;
+}
+.footer a:hover
+{
+color:red;
+font-size:;
+}
+

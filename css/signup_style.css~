@@ -1,0 +1,52 @@
+.signup_form
+{
+color:green;
+font-size:15px;
+}
+.signup_form #m{
+color:red;
+}
+#field_form
+{
+	border:5px dotted blue;
+}
+#field_form input:focus
+{
+	
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85); 
+	transform:scale(1.2) rotate(0deg);
+	color:green;
+	
+}
+
+#field_form input#i2{
+	text-transform:uppercase;
+}
+#filed_form #i7
+{
+	width:20%;
+}
+#filed_form input#i1
+{
+	width:20%;
+}
+
+#field_form input:focus
+{
+	box-shadow: 0 0 12px rgba(51, 204, 255, 0.5);
+}
+#field_form input[type="submit"],#field_form input[type="reset"]
+{
+	width:65px;
+	height:25px;
+	border-radius:15px; 
+}
+#field_form input[type="submit"]:hover,#field_form input[type="reset"]:hover
+{
+color:red;
+cursor:pointer;
+}
+#filed_form input #i7
+{
+	width:20%;
+}

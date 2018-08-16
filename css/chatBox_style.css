@@ -1,0 +1,63 @@
+body
+{
+	height:70%;
+}
+h1{
+	color:red;
+	font-size:15px;
+}
+
+#onlineUsers
+	{
+	 font-family:tahoma; font-size:14; color:orange; border:3px teal dotted; 
+	 height:100%;width:25%; overflow:scroll; margin-left:1px; float:left; 
+	}
+#blank1
+{
+	height:100%;width:10%;float:left; 
+}
+#select
+{
+	
+	font-family:tahoma; font-size:20px; color:blue; border: 3px teal dotted; 
+	height: 100%; width: 25%; overflow:scroll;float:left;
+}
+#blank2
+{
+	height:100%;width:5%;float:left; 
+}
+#messageroom 
+{
+	
+	height: 100%; width: 30%;  border: 3px teal dotted; margin:3px;overflow:scroll;
+}
+
+#onlineUsers_table
+{
+
+/*height:90%;*/
+width:100%;
+cursor:pointer;
+}
+input[type="search"]
+{
+height:10%;
+width:100%;	
+}
+#onlineUsers_table  tr:nth-child(odd)
+{
+	background:#f1f1f1;
+}
+#onlineusers_table  tr:nth-child(even)
+{
+	background:white;
+}
+#onlineUsers_table  td
+{
+	border: 3px teal solid;
+	border-radius: 15px;
+}
+#onlineUsers_table_tr
+{
+	height:7px;
+}

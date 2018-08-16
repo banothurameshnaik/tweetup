@@ -1,0 +1,35 @@
+
+#login_form
+{
+	border:5px dotted blue;
+	width:40%;
+}
+#login_form input:focus
+{
+	text-shadow: 0 1px 1px rgba(255, 255, 255, 0.85); 
+	transform:scale(1) rotate(0deg);
+	color:green;
+	box-shadow: 0 0 12px rgba(51, 204, 255, 0.5);
+}
+.login_form input[type="submit"]
+{
+	/*width:60%;*/
+	height:25px;
+	border-radius:15px; 
+}
+.login_form input[type="reset"]
+{
+	/*width:150%;*/
+	height:25px;
+	border-radius:15px;
+}
+.login_form input[type="reset"]:hover,.login_form input[type="submit"]:hover
+{
+	color:blue;
+	cursor:pointer;
+}
+#error{
+	color:red;
+	font-size:25px;
+	
+}

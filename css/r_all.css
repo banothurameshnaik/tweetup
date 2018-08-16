@@ -1,0 +1,9 @@
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #1D750F 0px, #CE5829 100%);
+    
+    background-repeat: repeat-x;
+    
+}
+body{
+	 	background-image:url("../images/r222.jpg");
+ }

@@ -1,0 +1,7 @@
+.login,.signup,.feedback,.chatroom,.about_us,.change_pwd
+{
+    /*background-color:#fcac00;*/
+    background:url('../images/body_bg13.png');
+    border-radius:5px;
+
+}
